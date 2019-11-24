@@ -1,0 +1,23 @@
+name: spam
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:$ apt update 
+$ apt upgrade
+$ apt install git 
+$ git clone https://github.com/termuxtrue/spam
+$ cd;ls
+$ cd spam;ls
+$ bash spam.sh
+    - uses: send/messages
+    - name: git clone https://github.com/termuxtrue/spam
+      run: 
+    - name: Run a multi-line script
+      run: starting
+        echo Add other actions to build,
+        echo test, and deploy your project.
